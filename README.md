@@ -23,7 +23,7 @@ Algorithm has Three major steps :
 3) Push
 
 The Pull part involves , pulling elements from the array , to three variables </br>
-for comparison . It aslo covers the part of pulling new elements from the array  </br>
+for comparison . It also covers the part of pulling new elements from the array  </br>
 when previous comparisons are done .
 
 
