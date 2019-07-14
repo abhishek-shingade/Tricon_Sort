@@ -1,5 +1,8 @@
 # Tricon_Sort
 
+"" <i> only comparisons allow sorting , 
+            no comparisions , no sorting </i>""
+
 1) Basic Sorting Algorithm . 
 
 2) Uses Three point , Comparisons
