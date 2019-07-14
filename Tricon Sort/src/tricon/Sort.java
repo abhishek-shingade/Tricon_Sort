@@ -2,8 +2,8 @@
 
 public class Sort 
 {
-	static int arr[] = {10,2,13,0,5,4,9,11,15}; //number of elements = 9
-	static int arr_num = 9; //better if multiple of 3
+    static int arr[] = {10,2,13,0,5,4,9,11,15}; //number of elements = 9
+    static int arr_num = 9; //better if multiple of 3
     static String finalpoint = " "; //for decision based on last result of comparison
     static int a = 0; //hold element for comparison
     static int b = 0; //hold element for comparison
@@ -22,9 +22,9 @@ public class Sort
     public static void main(String[] args)
     {
     	//Initial pull
-		 a = arr[pull++]; //pull 0th element from array
-		 b = arr[pull++]; //pull 1st element from array
-		 c = arr[pull++]; //pull 2nd element from array
+	a = arr[pull++]; //pull 0th element from array
+	b = arr[pull++]; //pull 1st element from array
+	c = arr[pull++]; //pull 2nd element from array
     	
     	//loop_time calculations
     	loop_time = arr_num / 2; //only integer value is required 
@@ -48,25 +48,25 @@ public class Sort
         		 comp_val = 0;
         		 
         		 if(j == (arr_num - interval)) //when j's value becomes equal to the last array element  
-        		 {							  //then compare is required , push is required 
-        			//compare #2			 //but that pull from array is not required (present in push)
+        		 {			      //then compare is required , push is required 
+        			//compare #2	     //but that pull from array is not required (present in push)
         			 compare();
             		 
-            		//push_no_pull #2
+            		       //push_no_pull #2
         			 push_no_pull();        			
             		 
         		 } //end if(condition)
     		 } //end loop #2 
     		 
     		 if(i != loop_time) //because when i==loop_time , this is not required , as there are only -
-    		 {					//- three elements remaining , for sorting
+    		 {		   //- three elements remaining , for sorting
     			//comparison and push based on final point #1
     			 finalpoint();
     			 
     		 } //end if(condition)
     		 
     		if(i != loop_time) //because when i==loop_time , this is not required , as there are only -
-    		{					//- three elements remaining , for sorting
+    		{		   //- three elements remaining , for sorting
     			//set default values
        		 	interval = interval + 2; //for intervals , in loop #2
        		 	push = 0; //push should start from 0th position
