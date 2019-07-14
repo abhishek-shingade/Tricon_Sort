@@ -29,7 +29,7 @@ when previous comparisons are done .
 
 ## How does it Compare
 
-<img src="ScreenShots/Compare Truth Table.jpg" height="400" width="450">
+<img src="ScreenShots/Compare Truth Table.jpg" height="300" width="450">
 
 1] truth table
 2]unique value creation
