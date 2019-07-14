@@ -55,7 +55,7 @@ when previous comparisons are done .
      the elments are pulled , compared or pushed .
 
 2) The level of Comparions required to decide , whether the array is sorted or not </br>
-     decreases as the number loops increase . (loop #1 i)
+     decreases as the loop number increases . ( loop #1 i variable )
 
 3) So first cheking is done and if the array is sorted then , the Algorithm skips to the </br>
      part of , printing the elements of array .
