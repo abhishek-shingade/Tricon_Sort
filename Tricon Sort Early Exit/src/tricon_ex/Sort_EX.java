@@ -73,7 +73,7 @@ public class Sort_EX
 	       		 
 	       		if(i != loop_time) //because when i==loop_time , this is not required , as there are only -
 	       		{					//- three elements remaining , for sorting
-	       			//set default values
+	       				//set default values
 	          		 	interval = interval + 2; //for intervals , in loop #2
 	          		 	push = 0; //push should start from 0th position
 	          		 	pull = 0; //new array , pull from 0th element
@@ -85,10 +85,10 @@ public class Sort_EX
 	       		if(i == loop_time) //because when i==loop_time , there are only three elements remaining , for sorting
 	       		{
 	       			//set default values
-	          		 	comp_one = 0; //reset values , to avoid issues 
-	          		 	comp_two = 0; //in above compare , calculations
-	          		 	comp_thr = 0;
-	          		 	comp_val = 0;
+	          		 comp_one = 0; //reset values , to avoid issues 
+	          		 comp_two = 0; //in above compare , calculations
+	          		 comp_thr = 0;
+	          		 comp_val = 0;
 	       			
 	   	       		//compare #1
 	   	       		 compare();
