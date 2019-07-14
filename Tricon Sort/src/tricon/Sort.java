@@ -1,9 +1,9 @@
-﻿package tricon;
+package tricon;
 
 public class Sort 
 {
     static int arr[] = {10,2,13,0,5,4,9,11,15}; //number of elements = 9
-    static int arr_num = 9; //better if multiple of 3
+    static int arr_num = arr.length; //better if multiple of 3
     static String finalpoint = " "; //for decision based on last result of comparison
     static int a = 0; //hold element for comparison
     static int b = 0; //hold element for comparison
