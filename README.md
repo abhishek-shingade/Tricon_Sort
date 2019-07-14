@@ -6,6 +6,6 @@
 
 3) Number of Array Elements = Multiple of Three
 
-4) Able to Place Two Big elements on there positions , after first iteration
+4) Able to Place Two Big elements on there positions , after each iteration
 
-<img src="ScreenShots/one.jpg" height="400" width="400">
+<img src="ScreenShots/one.jpg" height="300" width="300">
