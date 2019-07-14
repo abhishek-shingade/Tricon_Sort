@@ -27,3 +27,8 @@
 
 ## Early Exit Feature
 
+
+## Some thoughts
+
+1] possibility not speed
+2] existence of diff ways
