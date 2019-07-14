@@ -2,6 +2,8 @@
 
 "" <i> only comparisons allow sorting , no comparisons , no sorting </i>""
 
+## Points
+
 1) Basic Sorting Algorithm . 
 
 2) Uses Three point , Comparisons
@@ -14,11 +16,20 @@
 
 ## Concept
 
-1] pull
-2push
-3compare
+Algorithm has Three major steps :
+
+1) Pull
+2) Push
+3) Compare
+
+The Pull part involves , pulling elements from the array , to three variables </br>
+for comparison . It aslo covers the part of pulling new elements from the array  </br>
+when previous comparisons are done .
+
 
 ## How does it Compare
+
+<img src="ScreenShots/Compare Truth Table.jpg" height="400" width="450">
 
 1] truth table
 2]unique value creation
