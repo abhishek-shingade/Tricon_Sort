@@ -10,20 +10,20 @@
 
 <img src="ScreenShots/one.jpg" height="300" width="300">
 
-# Concept
+## Concept
 
 1] pull
 2push
 3compare
 
-# How does it Compare
+## How does it Compare
 
 1] truth table
 2]unique value creation
 
-# How are the elements Pushed
+## How are the elements Pushed
 
 1] ations based on the unique value created
 
-# Early Exit Feature
+## Early Exit Feature
 
