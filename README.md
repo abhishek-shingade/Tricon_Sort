@@ -67,4 +67,4 @@ when previous comparisons are done .
      or to place elements in there proper positions .
 
 2) Ofcourse many options , solutions , methods exist to solve a problem but we as an individuals should also</br>
-     allow our thinking to be a part o the solution . Because ultimately , "<i> a Code is your thinking in Text .</i> "
+     allow our thinking to be a part of the solution . Because ultimately , "<i> a Code is your thinking in Text .</i> "
