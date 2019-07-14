@@ -12,7 +12,8 @@
 
 4) Able to Place Two Big elements on there positions , after each iteration
 
-5) IDE : Eclipse            Language : Java
+5) IDE : Eclipse </br>
+     Language : Java
 
 <img src="ScreenShots/one.jpg" height="300" width="300">
 
@@ -65,7 +66,7 @@ when previous comparisons are done .
 ## Some thoughts
 
 1) Do not judge this for speed or time complexity , it might be requiring more time than </br>
-     Bubble Sort Early Exit . But do Note the point that , they are still various ways to sort elements </br>
+     Bubble Sort Early Exit . But do Note the point that , there are still various ways to sort elements </br>
      or to place elements in there proper positions .
 
 2) Ofcourse many options , solutions , methods exist to solve a problem but we as an individuals should also</br>
