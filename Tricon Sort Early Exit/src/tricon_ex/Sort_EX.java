@@ -2,8 +2,8 @@ package tricon_ex;
 
 public class Sort_EX 
 {
-	static int arr[] = {9,8,1,2,3,4,5,6,7}; //number of elements = 9
-	static int arr_num = arr.length; //better if multiple of 3
+    static int arr[] = {9,8,1,2,3,4,5,6,7}; //number of elements = 9
+    static int arr_num = arr.length; //better if multiple of 3
     static String finalpoint = " "; //for decision based on last result of comparison
     static int a = 0; //hold element for comparison
     static int b = 0; //hold element for comparison
@@ -25,9 +25,9 @@ public class Sort_EX
     public static void main(String[] args)
     {
     		//Initial pull
-	   		 a = arr[pull++]; //pull 0th element from array
-	   		 b = arr[pull++]; //pull 1st element from array
-	   		 c = arr[pull++]; //pull 2nd element from array
+	   	a = arr[pull++]; //pull 0th element from array
+	   	b = arr[pull++]; //pull 1st element from array
+	   	c = arr[pull++]; //pull 2nd element from array
 	       	
 	       	//loop_time calculations
 	       	loop_time = arr_num / 2; //only integer value is required 
@@ -54,25 +54,25 @@ public class Sort_EX
 	           		 comp_val = 0;
 	           		 
 	           		 if(j == (arr_num - interval)) //when j's value becomes equal to the last array element  
-	           		 {							  //then compare is required , push is required 
-	           			//compare #2			 //but that pull from array is not required (present in push)
+	           		 {				//then compare is required , push is required 
+	           			//compare #2		//but that pull from array is not required (present in push)
 	           			 compare();
 	               		 
-	               		//push_no_pull #2
+	               			//push_no_pull #2
 	           			 push_no_pull();        			
 	               		 
 	           		 } //end if(condition)
 	       		 } //end loop #2 
 	       		 
 	       		 if(i != loop_time) //because when i==loop_time , this is not required , as there are only -
-	       		 {					//- three elements remaining , for sorting
+	       		 {		    //- three elements remaining , for sorting
 	       			//comparison and push based on final point #1
 	       			 finalpoint();
 	       			 
 	       		 } //end if(condition)
 	       		 
 	       		if(i != loop_time) //because when i==loop_time , this is not required , as there are only -
-	       		{					//- three elements remaining , for sorting
+	       		{		   //- three elements remaining , for sorting
 	       				//set default values
 	          		 	interval = interval + 2; //for intervals , in loop #2
 	          		 	push = 0; //push should start from 0th position
@@ -125,15 +125,15 @@ public class Sort_EX
     {
     	if(a < c)
 		 {
-			 comp_one = 1; //store this value , else zero default 
+		  comp_one = 1; //store this value , else zero default 
 		 }
 		 if(c < b)
 		 {
-			 comp_two = 2; //store this value , else zero default
+	          comp_two = 2; //store this value , else zero default
 		 }
 		 if(b < a)
 		 {
-			 comp_thr = 5; //store this value , else zero default
+		  comp_thr = 5; //store this value , else zero default
 		 }
 		 
 		 comp_val = comp_one + comp_two + comp_thr; //create a unique value by addition
@@ -232,37 +232,37 @@ public class Sort_EX
 		 case "a":
 			 if(c < b)
 			 {
-				 arr[push++] = c;
-				 arr[push] = b;
+			  arr[push++] = c;
+			  arr[push] = b;
 			 }
 			 else
 			 {
-				 arr[push++] = b;
-				 arr[push] = c;
+			  arr[push++] = b;
+			  arr[push] = c;
 			 }
 			 break;
 		 case "b":
 			 if(a < c)
 			 {
-				 arr[push++] = a;
-				 arr[push] = c;
+			  arr[push++] = a;
+			  arr[push] = c;
 			 }
 			 else
 			 {
-				 arr[push++] = c;
-				 arr[push] = a;
+			  arr[push++] = c;
+			  arr[push] = a;
 			 }
 			 break;
 		 case "c":
 			 if(b < a)
 			 {
-				 arr[push++] = b;
-				 arr[push] = a;
+			  arr[push++] = b;
+			  arr[push] = a;
 			 }
 			 else
 			 {
-				 arr[push++] = a;
-				 arr[push] = b;
+			  arr[push++] = a;
+			  arr[push] = b;
 			 }
 			 break;
 		 } //end switch(condition)
@@ -274,8 +274,8 @@ public class Sort_EX
     	counter = 0; //set to zero , for proper value , number of comparison
     	
     	for(int l = 0; l <= (arr_num - diff); l++) //from 0 to n-2 ,n-4,... ,because if(condition) has -
-    	{										//l and l+1 , so comparison of all elements - 
-    		if(arr[l] < arr[l + 1])				//becomes possible
+    	{					  //l and l+1 , so comparison of all elements - 
+    		if(arr[l] < arr[l + 1])		 //- becomes possible
     		{
     			counter++;
     			continue;
@@ -287,7 +287,7 @@ public class Sort_EX
     	}
     	
     	if(counter == ((arr_num - diff) + 1)) //add 1 , because the number of comparisons -
-    	{									//- the value of counter , should match with the expression 
+    	{				      //- the value of counter , should match with the expression 
     		return send = 0; //do early exit
     	}
     	
