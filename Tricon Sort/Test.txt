@@ -1,0 +1,6 @@
+//set default values
+interval = interval + 2; //limits , loop #2
+
+static int arr_pos = 0; //for placing sorted elements 
+
+static int arr_next = 2; //to pick next element for comparison
