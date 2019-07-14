@@ -19,8 +19,8 @@
 Algorithm has Three major steps :
 
 1) Pull
-2) Push
-3) Compare
+2) Compare
+3) Push
 
 The Pull part involves , pulling elements from the array , to three variables </br>
 for comparison . It aslo covers the part of pulling new elements from the array  </br>
