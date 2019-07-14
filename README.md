@@ -12,7 +12,7 @@
 
 4) Able to Place Two Big elements on there positions , after each iteration
 
-5) IDE : Eclipse  Language : Java
+5) IDE : Eclipse            Language : Java
 
 <img src="ScreenShots/one.jpg" height="300" width="300">
 
