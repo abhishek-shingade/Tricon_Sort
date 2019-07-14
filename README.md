@@ -54,7 +54,7 @@ when previous comparisons are done .
 1) This a method in the code , which compares elements in the array before </br>
      the elments are pulled , compared or pushed .
 
-2) The level of Comparions required to decide , wheater the array is sorted or not </br>
+2) The level of Comparions required to decide , whether the array is sorted or not </br>
      decreases as the number loops increase . (loop #1 i)
 
 3) So first cheking is done and if the array is sorted then , the Algorithm skips to the </br>
