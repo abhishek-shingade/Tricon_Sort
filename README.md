@@ -14,7 +14,7 @@
 
 5) IDE : Eclipse &nbsp; &nbsp; Language : Java
 
-<img src="ScreenShots/one.jpg" height="300" width="300"> &nbsp;<img src="ScreenShots/two.jpg" height="300" width="300">
+<img src="ScreenShots/Three point Comparison.jpg" height="300" width="300"> &nbsp;<img src="ScreenShots/Direction of Comparison.jpg" height="300" width="300">
 
 ## Concept
 
